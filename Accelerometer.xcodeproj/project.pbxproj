@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37BA40D919F01F560047603D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA40D819F01F560047603D /* AppDelegate.swift */; };
+		37BA40DE19F01F560047603D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BA40DC19F01F560047603D /* Main.storyboard */; };
+		37BA40E019F01F560047603D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BA40DF19F01F560047603D /* Images.xcassets */; };
+		37BA40E319F01F560047603D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37BA40E119F01F560047603D /* LaunchScreen.xib */; };
+		37BA40EF19F01F560047603D /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA40EE19F01F560047603D /* AccelerometerTests.swift */; };
+		37BA40F919F01F720047603D /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA40F819F01F720047603D /* AccelerometerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37BA40E919F01F560047603D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37BA40CB19F01F560047603D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BA40D219F01F560047603D;
+			remoteInfo = Accelerometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37BA40D319F01F560047603D /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BA40D719F01F560047603D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BA40D819F01F560047603D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37BA40DD19F01F560047603D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37BA40DF19F01F560047603D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37BA40E219F01F560047603D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37BA40E819F01F560047603D /* AccelerometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BA40ED19F01F560047603D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BA40EE19F01F560047603D /* AccelerometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerTests.swift; sourceTree = "<group>"; };
+		37BA40F819F01F720047603D /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37BA40D019F01F560047603D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BA40E519F01F560047603D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37BA40CA19F01F560047603D = {
+			isa = PBXGroup;
+			children = (
+				37BA40D519F01F560047603D /* Accelerometer */,
+				37BA40EB19F01F560047603D /* AccelerometerTests */,
+				37BA40D419F01F560047603D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37BA40D419F01F560047603D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37BA40D319F01F560047603D /* Accelerometer.app */,
+				37BA40E819F01F560047603D /* AccelerometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37BA40D519F01F560047603D /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				37BA40F819F01F720047603D /* AccelerometerViewController.swift */,
+				37BA40D819F01F560047603D /* AppDelegate.swift */,
+				37BA40DC19F01F560047603D /* Main.storyboard */,
+				37BA40DF19F01F560047603D /* Images.xcassets */,
+				37BA40E119F01F560047603D /* LaunchScreen.xib */,
+				37BA40D619F01F560047603D /* Supporting Files */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		37BA40D619F01F560047603D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BA40D719F01F560047603D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BA40EB19F01F560047603D /* AccelerometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				37BA40EE19F01F560047603D /* AccelerometerTests.swift */,
+				37BA40EC19F01F560047603D /* Supporting Files */,
+			);
+			path = AccelerometerTests;
+			sourceTree = "<group>";
+		};
+		37BA40EC19F01F560047603D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BA40ED19F01F560047603D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37BA40D219F01F560047603D /* Accelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BA40F219F01F560047603D /* Build configuration list for PBXNativeTarget "Accelerometer" */;
+			buildPhases = (
+				37BA40CF19F01F560047603D /* Sources */,
+				37BA40D019F01F560047603D /* Frameworks */,
+				37BA40D119F01F560047603D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accelerometer;
+			productName = Accelerometer;
+			productReference = 37BA40D319F01F560047603D /* Accelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37BA40E719F01F560047603D /* AccelerometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BA40F519F01F560047603D /* Build configuration list for PBXNativeTarget "AccelerometerTests" */;
+			buildPhases = (
+				37BA40E419F01F560047603D /* Sources */,
+				37BA40E519F01F560047603D /* Frameworks */,
+				37BA40E619F01F560047603D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37BA40EA19F01F560047603D /* PBXTargetDependency */,
+			);
+			name = AccelerometerTests;
+			productName = AccelerometerTests;
+			productReference = 37BA40E819F01F560047603D /* AccelerometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37BA40CB19F01F560047603D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "TimesToCome Mobile";
+				TargetAttributes = {
+					37BA40D219F01F560047603D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					37BA40E719F01F560047603D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 37BA40D219F01F560047603D;
+					};
+				};
+			};
+			buildConfigurationList = 37BA40CE19F01F560047603D /* Build configuration list for PBXProject "Accelerometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37BA40CA19F01F560047603D;
+			productRefGroup = 37BA40D419F01F560047603D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37BA40D219F01F560047603D /* Accelerometer */,
+				37BA40E719F01F560047603D /* AccelerometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37BA40D119F01F560047603D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BA40DE19F01F560047603D /* Main.storyboard in Resources */,
+				37BA40E319F01F560047603D /* LaunchScreen.xib in Resources */,
+				37BA40E019F01F560047603D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BA40E619F01F560047603D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37BA40CF19F01F560047603D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BA40F919F01F720047603D /* AccelerometerViewController.swift in Sources */,
+				37BA40D919F01F560047603D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BA40E419F01F560047603D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BA40EF19F01F560047603D /* AccelerometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37BA40EA19F01F560047603D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BA40D219F01F560047603D /* Accelerometer */;
+			targetProxy = 37BA40E919F01F560047603D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37BA40DC19F01F560047603D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BA40DD19F01F560047603D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37BA40E119F01F560047603D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BA40E219F01F560047603D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37BA40F019F01F560047603D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37BA40F119F01F560047603D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37BA40F319F01F560047603D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Accelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37BA40F419F01F560047603D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Accelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37BA40F619F01F560047603D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AccelerometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer.app/Accelerometer";
+			};
+			name = Debug;
+		};
+		37BA40F719F01F560047603D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AccelerometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer.app/Accelerometer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37BA40CE19F01F560047603D /* Build configuration list for PBXProject "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BA40F019F01F560047603D /* Debug */,
+				37BA40F119F01F560047603D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BA40F219F01F560047603D /* Build configuration list for PBXNativeTarget "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BA40F319F01F560047603D /* Debug */,
+				37BA40F419F01F560047603D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BA40F519F01F560047603D /* Build configuration list for PBXNativeTarget "AccelerometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BA40F619F01F560047603D /* Debug */,
+				37BA40F719F01F560047603D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37BA40CB19F01F560047603D /* Project object */;
+}
